@@ -1,0 +1,35 @@
+{
+  "name": "auto",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": "14.15.1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^5.2.0",
+    "hbs": "^4.1.2",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.11.0",
+    "mongoose": "^5.12.13",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "nvm": "^0.0.4"
+  },
+  "description": "1. Install Dependencies using `npm install` 2. Make sure `MongoDB` server is running 3. Create a database named `autorizz` 4. Create all the required `collections` in the created database and fill in the data from `db_data`",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
