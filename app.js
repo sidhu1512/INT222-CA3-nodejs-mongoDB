@@ -23,7 +23,7 @@ const db = async () => {
             useFindAndModify: false
         });
 
-       app.listen(5000,() => console.log("MongoDB connected")) ;
+       app.listen(process.env.PORT || 5000,() => console.log("MongoDB connected")) ;
 
     } catch (err) {
         console.log("MongoDB Error : Failed to connect");
