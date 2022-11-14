@@ -22,8 +22,8 @@ const db = async () => {
             useUnifiedTopology: true,
             useFindAndModify: false
         });
-
-       app.listen(process.env.PORT || 5000,() => console.log("MongoDB connected")) ;
+const portt = process.env.PORT || 5000;
+       app.listen(portt,() => console.log("MongoDB connected")) ;
 
     } catch (err) {
         console.log("MongoDB Error : Failed to connect");
